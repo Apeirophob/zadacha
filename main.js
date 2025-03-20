@@ -88,7 +88,7 @@ function update() {
     game.camera.follow(pl1)
     if (cr.left.isDown) {
         pl1.x -= 10
-    } else if (cr.right.isDown) {
+} else if (cr.right.isDown) {
         pl1.x += 10
     }
     bg.tilePosition.y += 30
